@@ -1,0 +1,17 @@
+{
+    "name": "TrackerZapper",
+    "version": "1.0.0",
+    "description": "Remove tracking params from urls when you copy them",
+    "main": "main.js",
+    "private": true,
+    "scripts": {
+        "start": "electron ."
+    },
+    "devDependencies": {
+        "electron": "^14.0.0"
+    },
+    "dependencies": {
+        "clipboard-event": "^1.5.0",
+        "electron-clipboard-watcher": "^1.0.1"
+    }
+}
